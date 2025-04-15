@@ -207,9 +207,7 @@
 
         <div class="container mb-4" id="contact">
             <h2 class="text-center mb-4">Обратная связь</h2>
-            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#feedbackModal">
-                Оставьте отзыв
-            </button>
+            <div class="text-center"><button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#feedbackModal"> Оставьте отзыв </button></div>
 
             <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel"
                 aria-hidden="true">
@@ -233,7 +231,9 @@
                                     <label for="message" class="form-label">Сообщение</label>
                                     <textarea class="form-control" id="message" rows="5" required></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-dark">Отправить сообщение</button>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-dark">Отправить сообщение</button>
+                                </div>
                             </form>
                         </div>
                     </div>
